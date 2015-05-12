@@ -1,0 +1,42 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:orientation="vertical"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#6234"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+
+    <EditText
+        android:padding="5dp"
+        android:gravity="top"
+        android:hint="Enter None Stemmed Text"
+        android:background="@drawable/edti_back_drawable"
+        android:id="@+id/edit1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".4"/>
+
+    <Button
+        android:textSize="25dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/button_back_drawable"
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="Stem"
+        android:layout_weight=".2"/>
+
+    <EditText
+        android:padding="5dp"
+        android:gravity="top"
+        android:hint="Result"
+        android:editable="false"
+        android:background="@drawable/edti_back_drawable"
+        android:id="@+id/edit2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".4"/>
+
+</LinearLayout>
